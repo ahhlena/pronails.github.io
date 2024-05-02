@@ -72,6 +72,7 @@ h5{
 }
 .wiservlist{
     display: flex;
+    justify-content: space-between;
 }
 .walkinlst{
     color: #7C2D3B;
@@ -81,8 +82,10 @@ h5{
 }
 .walkinprice{
     list-style-type: none;
-    margin-left: -9%;
+    margin-left: -5%;
     color: #7C2D3B;
+    display: flex;
+    flex-direction: column;
 }
 .smallcontainer{
     margin-top: -3%;
@@ -107,16 +110,20 @@ h5{
 .apservlist{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .apptlist{
     list-style-type: circle;
 }
 .apptprice{
     list-style-type: none;
-    margin-left: -9%;
+    margin-left: 15%;
     color: #7C2D3B;
+    display: flex;
+    flex-direction: column;
 }
 footer{
+    font-family:"EBGaramond";
     background-color: #8DA5A9;
     display: flex;
     flex-direction: row;

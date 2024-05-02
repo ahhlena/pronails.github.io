@@ -94,10 +94,20 @@ img{
     display: flex;
     flex-direction: row;
 }
+.row1img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+}
 .nail1{
     margin: 1%;
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     padding: 1%;
     background-color:#7C2D3B;
     transition: transform 3s;
@@ -107,8 +117,8 @@ img{
   }
 .nail2{
     margin: 1%;
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     padding: 1%;
     background-color: #7C2D3B;
     transition: transform 3s;
@@ -118,8 +128,8 @@ img{
   }
 .nail3{
     margin: 1%;
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     padding: 1%;
     background-color: #7C2D3B;
     transition: transform 3s;
@@ -127,10 +137,20 @@ img{
   .nail3:hover{
       transform: scale(2);
   }
+.row2img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+}
 .nail4{
     margin: 1%;
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     padding: 1%;
     background-color: #7C2D3B;
     transition: transform 3s;
@@ -140,8 +160,8 @@ img{
   }
 .nail5{
     margin: 1%;
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     padding: 1%;
     background-color: #7C2D3B;
     transition: transform 3s;
@@ -151,8 +171,8 @@ img{
   }
 .nail6{
     margin: 1%;
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     padding: 1%;
     background-color: #7C2D3B;
     transition: transform 3s;
@@ -197,7 +217,7 @@ h2{
 .ftitem{
     color: #CDE5E2;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
     body{
         background-color: #EEECEC;
         margin: 0%;
@@ -275,7 +295,7 @@ h2{
     }
     .abtpara{
         margin: 0%;
-        font-size: 25.5pt;
+        font-size: 25pt;
         text-align: center;
         color:#7C2D3B;
     }
