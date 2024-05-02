@@ -204,6 +204,18 @@ h2{
     line-height: 2;
     list-style-type:circle;
 }
+.infoitem2{
+    text-decoration: none;
+    color: #CDE5E2;
+}
+.infoitem2:link { 
+    color: #CDE5E2; 
+  } 
+.infoitem2:hover {
+    opacity: 0.5;
+    color: #CDE5E2;
+    text-decoration: underline;
+}
 .footeritem{
     text-decoration: underline;
 }

@@ -71,6 +71,18 @@ h1{
     border-width: 2px;
     border-radius: 10px;
 }
+.number{
+    text-decoration: none;
+    color: #7C2D3B;
+}
+.number:link { 
+    color: #7C2D3B; 
+  } 
+.number:hover {
+    opacity: 0.5;
+    color: #7C2D3B;
+    text-decoration: underline;
+}
 .container3{
     font-family:"EBGaramond";
     color: #7C2D3B;
@@ -121,6 +133,18 @@ h2{
     line-height: 2;
     list-style-type:circle;
 }
+.infoitem2{
+    text-decoration: none;
+    color: #CDE5E2;
+}
+.infoitem2:link { 
+    color: #CDE5E2; 
+  } 
+.infoitem2:hover {
+    opacity: 0.5;
+    color: #CDE5E2;
+    text-decoration: underline;
+}
 .footeritem{
     text-decoration: underline;
 }
@@ -130,6 +154,7 @@ h2{
 .footeritem:hover {
     opacity: 0.5;
     color: #CDE5E2;
+    text-decoration: underline;
 }
 .ftitem{
     color: #CDE5E2;
