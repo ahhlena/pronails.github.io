@@ -1,0 +1,411 @@
+body{
+    background-color: #F6EEEE;
+    margin: 0%;
+    font-family:"EBGaramond", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    font-family:"EBGaramond";
+    background-color: #274D50;
+    text-align: center;
+    padding-top: 1%;
+    margin: 0%;
+    color: #CDE5E2;
+}
+h1{
+    font-size: 40pt;
+    color: #CDE5E2;
+}
+.navitems{
+    background-color: #274D50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 4%;
+    padding-top: 0%;
+}
+.headeritem{
+    padding: 2% 9% 2% 9%;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #E3F3F1;
+}
+.headeritem:link { 
+    color: #E3F3F1; 
+  } 
+.headeritem:hover {
+    opacity: 0.5;
+    color: #274D50;
+}
+.item{
+    background-color: #E3F3F1;
+    color: #274D50;
+}
+.container1{
+    font-family:"EBGaramond";
+    margin: 2%;
+    padding: 2%;
+    background-color: #F6DFDF;
+    border: #7C2D3B;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+    font-size: 20pt;
+    margin: 2%;
+    color:#7C2D3B;
+}
+.abtpara{
+    margin: 0%;
+    font-size: 14.5pt;
+    text-align: center;
+    color:#7C2D3B;
+}
+.container2{
+    font-family:"EBGaramond";
+    padding: 2%;
+    background-color: #F6DFDF;
+    margin: 2%;
+    overflow: hidden;
+    border: #7C2D3B;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 20pt;
+    margin: 2%;
+    color:#7C2D3B;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+}
+.nail1{
+    margin: 1%;
+    height: 115px;
+    width: 115px;
+    padding: 1%;
+    background-color:#7C2D3B;
+    transition: transform 3s;
+  }
+  .nail1:hover{
+      transform: scale(2);
+  }
+.nail2{
+    margin: 1%;
+    height: 115px;
+    width: 115px;
+    padding: 1%;
+    background-color: #7C2D3B;
+    transition: transform 3s;
+  }
+  .nail2:hover{
+      transform: scale(2);
+  }
+.nail3{
+    margin: 1%;
+    height: 115px;
+    width: 115px;
+    padding: 1%;
+    background-color: #7C2D3B;
+    transition: transform 3s;
+  }
+  .nail3:hover{
+      transform: scale(2);
+  }
+.nail4{
+    margin: 1%;
+    height: 115px;
+    width: 115px;
+    padding: 1%;
+    background-color: #7C2D3B;
+    transition: transform 3s;
+  }
+  .nail4:hover{
+      transform: scale(2);
+  }
+.nail5{
+    margin: 1%;
+    height: 115px;
+    width: 115px;
+    padding: 1%;
+    background-color: #7C2D3B;
+    transition: transform 3s;
+  }
+  .nail5:hover{
+      transform: scale(2);
+  }
+.nail6{
+    margin: 1%;
+    height: 115px;
+    width: 115px;
+    padding: 1%;
+    background-color: #7C2D3B;
+    transition: transform 3s;
+  }
+  .nail6:hover{
+      transform: scale(2);
+  }
+footer{
+    font-family:"EBGaramond";
+    background-color: #274D50;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: #CDE5E2;
+}  
+.navoptions{
+    display: flex;
+}
+h2{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+.footernavitems{
+    line-height: 2;
+    list-style-type:circle;
+}
+.footerinfoitems{
+    line-height: 2;
+    list-style-type:circle;
+}
+.footeritem{
+    text-decoration: underline;
+}
+.footeritem:link { 
+    color: #CDE5E2; 
+  } 
+.footeritem:hover {
+    opacity: 0.5;
+    color: #CDE5E2;
+}
+.ftitem{
+    color: #CDE5E2;
+}
+@media screen and (min-width: 480px) {
+    body{
+        background-color: #EEECEC;
+        margin: 0%;
+    }
+    header{
+        background-color: #274D50;
+        text-align: center;
+        padding-top: 1%;
+        margin: 0%;
+        color: #CDE5E2;
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1{
+        margin: 2%;
+        font-size: 60pt;
+        color: #CAD7D8;
+    }
+    nav{
+        margin: -2%;
+        display: flex;
+    }
+    .navitems{
+        width: 800px;
+        margin: 2%;
+        background-color: #274D50;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        text-decoration: none;
+        padding: 0%;
+        align-items: center;
+    }
+    .headeritem{
+        padding: 2% 9% 2% 9%;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #CDE5E2;
+        font-size: 14pt;
+    }
+    .headeritem:link { 
+        color: #274D50; 
+      } 
+    .headeritem:hover {
+        opacity: 0.5;
+        color: #274D50;
+    }
+    .item{
+        background-color: #CDE5E2;
+        color: #274D50;
+    }
+    main{
+        display: flex;
+    }
+    .container1{
+        height: 790px;
+        width: 35%;
+        margin: 1%;
+        margin-right: 1%;
+        padding: 2%;
+        background-color: #F6DFDF;
+        border: #7C2D3B;
+        border-style:solid;
+        border-width: 5px;
+    
+    }
+    h3{
+        text-align: center;
+        font-size: 40pt;
+        margin: 2%;
+        color:#7C2D3B;
+    }
+    .abtpara{
+        margin: 0%;
+        font-size: 25.5pt;
+        text-align: center;
+        color:#7C2D3B;
+    }
+    .container2{
+        height: 740px;
+        padding: 2%;
+        background-color: #F6DFDF;
+        margin: 1%;
+        padding-bottom: 5%;
+        overflow: hidden;
+        border: #7C2D3B;
+        border-style:solid;
+        border-width: 5px;
+    }
+    h4{
+        text-align: center;
+        font-size: 40pt;
+        margin: 2%;
+        color:#7C2D3B;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+        flex-direction: row;
+    }
+    .nail1{
+        margin: 2%;
+        height: 270px;
+        width: 270px;
+        padding: 1%;
+        background-color: #7C2D3B;
+        transition: transform 3s;
+      }
+      .nail1:hover{
+          transform: scale(2);
+      }
+    .nail2{
+        margin: 2%;
+        height: 270px;
+        width: 270px;
+        padding: 1%;
+        background-color: #7C2D3B;
+        transition: transform 3s;
+      }
+      .nail2:hover{
+          transform: scale(2);
+      }
+    .nail3{
+        margin: 2%;
+        height: 270px;
+        width: 270px;
+        padding: 1%;
+        background-color: #7C2D3B;
+        transition: transform 3s;
+      }
+      .nail3:hover{
+          transform: scale(2);
+      }
+    .nail4{
+        margin: 2%;
+        height: 270px;
+        width: 270px;
+        padding: 1%;
+        background-color: #7C2D3B;
+        transition: transform 3s;
+      }
+      .nail4:hover{
+          transform: scale(2);
+      }
+    .nail5{
+        margin: 2%;
+        height: 270px;
+        width: 270px;
+        padding: 1%;
+        background-color: #7C2D3B;
+        transition: transform 3s;
+      }
+      .nail5:hover{
+          transform: scale(2);
+      }
+    .nail6{
+        margin: 2%;
+        height: 270px;
+        width: 270px;
+        padding: 1%;
+        background-color: #7C2D3B;
+        transition: transform 3s;
+      }
+      .nail6:hover{
+          transform: scale(2);
+      }
+      footer{
+        overflow: hidden;
+        background-color: #274D50;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #CDE5E2;
+        padding: 0%;
+    }  
+    .navoptions{
+        margin: 2%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18pt;
+        width: 25%;
+    }
+    h2{
+        margin: 2%;
+        display: flex;
+        justify-content: flex-start;
+        align-self: center;
+        font-size: 20pt;
+    }
+    .footernavitems{
+        line-height: 2;
+        list-style-type:circle;
+        font-size: 14pt;
+    }
+    .footerinfoitems{
+        line-height: 2;
+        list-style-type: circle;
+        font-size: 14pt;
+    }
+}
